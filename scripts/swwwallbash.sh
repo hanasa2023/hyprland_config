@@ -51,7 +51,7 @@ export -f fn_wallbash
 
 # Process templates in parallel
 
-find "$dcoDir" -type f -name "*.dcol" | parallel -j 0 fn_wallbash
-rm ${x_dcol}
+# find "$dcoDir" -type f -name "*.dcol" | parallel -j 0 fn_wallbash
+# rm ${x_dcol}
 
 
